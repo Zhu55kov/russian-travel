@@ -1,0 +1,38 @@
+.place__image {
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  min-height: 460px;
+  object-fit: contain;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1124px) {
+  .place__image {
+    max-width: 440px;
+    min-height: 440px;
+    
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place__image {
+    max-width: 340px;
+    min-height: 340px;
+    object-fit: contain;
+   
+  }
+} 
+
+@media screen and (max-width: 568px) {
+  .place__image {
+    display: block;
+    justify-content: center;
+    max-width: 320px;
+    min-height: 320px;
+    margin: 0;
+    padding: 0%;
+  }
+} 

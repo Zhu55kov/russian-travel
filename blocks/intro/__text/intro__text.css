@@ -1,0 +1,18 @@
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 33px;
+  font-size: 16px;
+  line-height: 26.08px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 568px) {
+  .intro__text {
+    line-height: 163%;
+    font-weight: normal;
+    margin: 0 auto 33px;
+    max-width: 288px;
+  }
+}

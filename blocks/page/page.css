@@ -1,0 +1,25 @@
+.page {
+  background-color: #2A2C2F;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 28px 0 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 1280px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  justify-self: center;
+}
+
+
+@media screen and (max-width: 568px) {
+  .page {
+    max-width: 320px;
+    min-height: 100%;
+    justify-self: center;
+  }
+} 

@@ -1,0 +1,21 @@
+.header__lang-link_en {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.header__lang-link_en:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+@media screen and (max-width: 330px) {
+  .header__lang-link_en {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+}

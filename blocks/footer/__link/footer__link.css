@@ -1,0 +1,7 @@
+.footer__link {
+  display: flex;
+  /*justify-content: flex-start;*/
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
