@@ -7,14 +7,14 @@
   text-decoration: underline;
   text-underline-offset: 3px;
   color: white;
-  flex-wrap: no-wrap;
+ /* flex-wrap: nowrap;*/
 }
 
 @media screen and (max-width: 984px) {
   .place__website__link {
     margin-bottom: 0;
   }
-} 
+}
 
 @media screen and (max-width: 568px) {
   .place__website__link {
@@ -24,4 +24,4 @@
     max-height: 100%;
     margin: 0 16px 32px 16px;
   }
-} 
+}
