@@ -1,0 +1,31 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* changing from flex-start due to uneven vertical adjustment*/
+  justify-self: center;
+  align-self: flex-end;
+  max-width: 484px;
+  width: 49.18%;
+  flex-wrap: wrap;
+  text-decoration: none;
+  text-underline-offset: 3px;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .place__website {
+    width: 48.88%;
+    object-fit: contain;
+   /* gap: 16px; */
+  }
+} 
+
+@media screen and(max-width: 568px) {
+  .place__website {
+    display: block;
+    width: 288px;
+    justify-content: center;
+    order: 2;
+  }
+}

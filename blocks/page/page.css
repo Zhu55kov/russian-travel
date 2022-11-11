@@ -1,0 +1,33 @@
+/* making here paddings top 28, right 48 bottom 24 left 28 */
+
+.page {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 28px 0 24px;
+  color: #ffffff;
+  background-color: #2A2C2F;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  max-width: 1280px;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%; 
+}
+
+@media screen and (max-width: 568px) {
+  .page {
+    padding-top: 16px;
+  }
+}

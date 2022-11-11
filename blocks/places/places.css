@@ -1,0 +1,12 @@
+.places {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 984px;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
