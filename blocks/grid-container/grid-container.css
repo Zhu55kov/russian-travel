@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   max-width: 1184px;
-  /*min-height: 100%; */
   margin: 0 auto 0;
   box-sizing: content-box;
 }
@@ -10,7 +9,6 @@
 @media screen and (max-width: 568px) {
   .grid-container {
     max-width: 100vw;
-    /*min-height: 100%;*/
     margin: 0;
     padding: 0;
   }

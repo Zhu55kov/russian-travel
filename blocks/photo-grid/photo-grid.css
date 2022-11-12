@@ -8,9 +8,7 @@
   display: grid;
   box-sizing: border-box;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
- /* column-gap: 16px; */
   grid-template-rows: repeat(213px, 1fr);
-  /*grid-template-rows: repeat((auto-fit, minmax(213px, 1fr));*/
   gap: 16px 16px;
 }
 
@@ -18,8 +16,6 @@
   .photo-grid {
     max-width: 928px;
     min-height: 1.015%;
-   /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(225px, 1fr);*/
     gap: 14px 14px;
   }
 } 
@@ -28,8 +24,6 @@
   .photo-grid {
     max-width: 720px;
     min-height: 100%;
-   /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(225px, 1fr);*/
     gap: 16px 16px;
   }
 } 
@@ -38,8 +32,6 @@
   .photo-grid {
     max-width: 288px;
     min-height: 100%;
-   /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(225px, 1fr);*/
     gap: 12px;
   }
 } 

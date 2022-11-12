@@ -1,7 +1,7 @@
 .place__website {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* changing from flex-start due to uneven vertical adjustment*/
+  justify-content: center;
   justify-self: center;
   align-self: flex-end;
   max-width: 484px;
@@ -17,7 +17,6 @@
   .place__website {
     width: 48.88%;
     object-fit: contain;
-   /* gap: 16px; */
   }
 } 
 
