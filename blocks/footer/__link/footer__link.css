@@ -1,13 +1,18 @@
 .footer__link {
-  display: flex;
+  font-size: 16px;
+  line-height: 18px;
   text-decoration: none;
   color: #ffffff;
   cursor: pointer;
-  transition: opacity 1s, visibility 1s, transform 1s ease-in-out;
 }
 
 .footer__link:hover {
-  opacity: .3;
-  visibility: .3;
-  transition: opacity 1s, visibility 1s, transform 1s ease-in-out;
+  opacity: .5;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

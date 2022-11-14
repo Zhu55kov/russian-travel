@@ -1,15 +1,12 @@
 .footer__copyright {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-self: right;
+ margin: 0;
+ font-size: 14px;
+ line-height: 16px;
 }
 
 @media screen and (max-width: 568px) {
-.footer__copyright {
-  font-size: 14px;
-  line-height: 14px;
-  
-}
+  .footer__copyright {
+    line-height: 14px;
+  }
 }
   

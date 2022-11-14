@@ -3,7 +3,7 @@
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
-  margin: 0 0 16px;
+  margin: 0 0 16px 0;
   max-width: 560px;
 }
 
@@ -11,7 +11,7 @@
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0 0 8;
+    margin: 0 0 8px;
     max-width: 288px;
   }
 }

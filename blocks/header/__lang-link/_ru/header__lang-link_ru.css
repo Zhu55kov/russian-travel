@@ -1,9 +1,0 @@
-.header__lang-link_ru {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-decoration: none;
-  text-decoration-line: underline;
-  text-underline-offset: 6px;
-  color: #ffffff;
-}

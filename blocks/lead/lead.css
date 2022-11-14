@@ -1,32 +1,26 @@
 .lead {
-  max-width: 984px;
-  min-width: 320px;
-  width: 100%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  object-fit: cover;
-  margin: 0 148px;
+  max-width: 984px;
+ /* box-sizing: border-box;*/
 }
 
 @media screen and (max-width: 1124px) {
   .lead {
-    max-width: 925px;
-    width: 100%;
-    margin: 0 48px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .lead {
-    max-width: 100%;
-    margin: 0;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .lead {
     min-width: 320px;
-    width: 100%;
   }
 }
