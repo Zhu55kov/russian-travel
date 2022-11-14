@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   max-width: 984px;
-  height: 100%;
+  aspect-ratio: 328 / 205;
   padding: 0;
   margin: 0;
 }
@@ -12,7 +12,6 @@
   .lead__image {
     max-width: 925px;
     width: 100%;
-    /*margin-bottom: 8px;*/
   }
 }
 
@@ -20,6 +19,7 @@
   .lead__image {
     max-width: 984px;
     width: 100%;
+    aspect-ratio: 16/10;
   }
 }
 
