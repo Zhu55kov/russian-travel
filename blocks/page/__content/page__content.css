@@ -2,21 +2,21 @@
   margin-top: 56px;
   margin-bottom: 92px;
 }
-
+/* по замечанию ревьюера о приведении кода к принятому стандарту, сделал отступы в стилях медиа-запросов. других несоответствий не заметил */
 @media screen and (max-width: 1124px) {
   .page__content {
-  margin-top: 48px;
+    margin-top: 48px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .page__content {
-  margin-bottom: 88px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .page__content {
-  margin-bottom: 64px;
+    margin-bottom: 64px;
   }
 }

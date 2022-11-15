@@ -31,12 +31,12 @@
 /*intro section */
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__content/intro__content.css);
+/* @import url(../blocks/intro/__content/intro__content.css); */
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__list/intro__list-figures.css);
-@import url(../blocks/intro/__list/intro__list-facts.css);
+@import url(../blocks/intro/__list-facts/intro__list-facts.css);
+@import url(../blocks/intro/__list-figures/intro__list-figures.css);
 
 /* grid section */
 
